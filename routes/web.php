@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/belibuku', function () {
+    return view('belibuku');
+});
+
+
 Route::get('/deskripsibuku', function () {
     return view('Deskripsi Buku');
  
@@ -32,3 +37,4 @@ Route::get('/beli', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
