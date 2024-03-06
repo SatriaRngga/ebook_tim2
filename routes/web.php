@@ -17,6 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/belibuku', function () {
     return view('belibuku');
 });
+
+
+Route::get('/deskripsibuku', function () {
+    return view('Deskripsi Buku');
+ 
+Route::get('/profile', function () {
+    return view('Profile');
+});
+
+Route::get('/beli', function () {
+    return view('beli');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
