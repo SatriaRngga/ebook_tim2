@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/profile', function () {
+    return view('Profile');
+});
 
 Route::get('/beli', function () {
     return view('beli');
@@ -25,4 +28,3 @@ Route::get('/beli', function () {
 Route::get('/login', function () {
     return view('login');
 });
-
