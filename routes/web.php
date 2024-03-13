@@ -25,6 +25,7 @@ Route::get('/belibuku', function () {
 
 Route::get('/deskripsibuku', function () {
     return view('Deskripsi Buku');
+});
  
 Route::get('/profile', function () {
     return view('Profile');
